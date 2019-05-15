@@ -1,0 +1,154 @@
+.navigation > a{
+	text-decoration: none;
+}
+.navigation > a{
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.point{
+	float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  text-decoration: none;
+}
+.img1{
+	width: 1270px;
+    height: 625px;
+}
+.heading{
+	position: relative;
+}
+.head{
+	position: absolute;
+	top: 185px;
+    left: 430px;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+}
+.ptext{
+	position: absolute;
+	top: 325px;
+    left: 420px;
+}
+.get{
+	position: absolute;
+	top: 415px;
+    left: 590px;
+	background-color: rgb(237, 14, 69);
+	border: none;
+    height: 40px;
+    width: 100px;
+    border-radius: 100px;
+    color: white;
+}
+button:hover {
+  background-color: white;
+  color: rgb(237, 14, 69);
+}
+.img2{
+	height: 625px;
+    width: 1050px;
+}
+.img_container{
+    margin: 100px;
+    position: relative;
+}
+.img_container2{
+	background-color: rgb(237, 14, 69);
+	position: absolute;
+    width: 370px;
+    height: 350px;
+    top: 240px;
+    left: 495px;
+    padding: 60px;
+    color: white;
+}
+.read{
+	margin-top: 60px;
+    border: none;
+    background-color: rgb(62, 15, 127);
+    height: 40px;
+    width: 100px;
+    border-radius: 100px;
+    color: white;
+}
+.page3{
+	margin: 100px;
+}
+.page3 > h1{
+	margin-right: 720px;
+	color:  rgb(237, 14, 69)
+}
+.page3 > p{
+	margin-right: 763px;
+}
+.grid_container{
+	display: grid;
+	grid-template-rows: repeat(2, 330px);
+	grid-template-columns: repeat(4, 250px);
+	grid-gap: 20px 20px;
+}
+.grid_container >div{
+	background-color: #fffcf4;
+}
+.page4{
+	position: relative;
+	margin: 100px;
+}
+.content{
+	bottom: 25px;
+    position: absolute;
+    left: 620px;
+    margin-right: 85px;
+}
+.prev{
+	width: 500px;
+    height: 300px;
+}
+.content > .subhead{
+	font-size: 21px;
+}
+.content > h1{
+	color: rgb(237, 14, 69);
+}
+.learn{
+	margin-top: 10px;
+    border: none;
+    background-color: rgb(237, 14, 69) ;
+    height: 40px;
+    width: 100px;
+    border-radius: 100px;
+    color: white;
+}
+.page44{
+	margin: 100px 100px 150px 100px;
+}
+.page44 > h1{
+	color: rgb(237, 14, 69);
+}
+.grid_cont2{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 10px;
+}
+.page5{
+	margin: 100px;
+	background-color: whitesmoke;
+}
+.page5 > h1{
+	text-align: center;
+	color:  rgb(237, 14, 69);
+}
+.grid_cont3{
+	display: grid;
+	grid-template-columns: repeat(3,auto);
+	grid-gap: 20px;
+}
