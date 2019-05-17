@@ -1,8 +1,8 @@
 .navigation {
 	position: absolute;
 	top: 20px;
-    left: 640px;
-    padding: 7px;
+  left: 620px;
+  padding: 7px;
 }
 .navigation > a{
 	text-decoration: none;
@@ -21,42 +21,45 @@
   text-decoration: none;
   font-size: 25px;
   top: 10px;
-    margin-left: 37px;
-    color: white;
+  margin-left: 37px;
+  color: white;
 }
 .img1{
-	width: 1340px;
-    height: 625px;
+	width: 1276px;
+  height: 625px;
 }
 .heading{
 	position: relative;
+  line-height: 25px;
+  font-family: sans-serif;
 }
 .head{
 	position: absolute;
 	top: 185px;
-    left: 430px;
-    color: white;
-    font-size: 50px;
-    font-family: sans-serif;
+  left: 430px;
+  color: white;
+  font-size: 50px;
+  font-family: sans-serif;
+  line-height: initial;
 }
 .ptext{
 	position: absolute;
 	top: 335px;
-    left: 420px;
-    color: white;
-    font-family: sans-serif;
+  left: 420px;
+  color: white;
+  font-family: sans-serif;
 }
 .get{
 	position: absolute;
 	top: 415px;
-    left: 590px;
+  left: 590px;
 	background-color: rgb(237, 14, 69);
 	border: none;
-    height: 40px;
-    width: 120px;
-    border-radius: 100px;
-    color: white;
-    font-size: 15px;
+  height: 40px;
+  width: 120px;
+  border-radius: 100px;
+  color: white;
+  font-size: 15px;
 }
 button:hover {
   background-color: white;
@@ -64,33 +67,40 @@ button:hover {
 }
 .img2{
 	height: 625px;
-    width: 1050px;
+  width: 1050px;
 }
 .img_container{
-    margin: 100px;
-    position: relative;
+  margin: 100px;
+  position: relative;
+  margin-bottom: 130px;
 }
 .img_container2{
 	background-color: rgb(237, 14, 69);
 	position: absolute;
-    width: 370px;
-    height: 350px;
-    top: 240px;
-    left: 495px;
-    padding: 60px;
-    color: white;
+  width: 370px;
+  height: 350px;
+  top: 240px;
+  left: 495px;
+  padding: 60px;
+  color: white;
 }
 .read{
 	margin-top: 60px;
-    border: none;
-    background-color: rgb(62, 15, 127);
-    height: 40px;
-    width: 100px;
-    border-radius: 100px;
-    color: white;
+  border: none;
+  background-color: rgb(62, 15, 127);
+  height: 40px;
+  width: 100px;
+  border-radius: 100px;
+  color: white;
 }
 .page3{
 	margin: 100px;
+}
+.page3p > p{
+  margin-left: 20px;
+}
+.gnames{
+  margin-left: 20px;
 }
 .page3 > h1{
 	margin-right: 720px;
@@ -106,7 +116,7 @@ button:hover {
 	grid-gap: 20px 20px;
 }
 .grid_container >div{
-	background-color: #e6e6e3;
+	background-color: #f7f4f4;
 }
 .page4{
 	position: relative;
@@ -114,13 +124,13 @@ button:hover {
 }
 .content{
 	bottom: 25px;
-    position: absolute;
-    left: 620px;
-    margin-right: 85px;
+  position: absolute;
+  left: 620px;
+  margin-right: 85px;
 }
-.prev{
+.prevent{
 	width: 500px;
-    height: 300px;
+  height: 300px;
 }
 .content > .subhead{
 	font-size: 21px;
@@ -130,18 +140,31 @@ button:hover {
 }
 .learn{
 	margin-top: 10px;
-    border: none;
-    background-color: rgb(237, 14, 69) ;
-    height: 40px;
-    width: 100px;
-    border-radius: 100px;
-    color: white;
+  border: none;
+  background-color: rgb(237, 14, 69) ;
+  height: 40px;
+  width: 100px;
+  border-radius: 100px;
+  color: white;
 }
 .page44{
 	margin: 100px 100px 150px 100px;
 }
+.next{
+  position: absolute;
+  top: 270px;
+  right: 750px;
+  background-color: rgb(237, 14, 69);
+  border: none;
+  height: 60px;
+  width: 135px;
+  border-radius: 10px;
+  color: white;
+  font-size: 15px;
+}
 h1{
 	color: rgb(237, 14, 69);
+  line-height: 30px;
 }
 .grid_cont2{
 	display: grid;
@@ -149,14 +172,17 @@ h1{
 	grid-gap: 10px;
 }
 .page5{
-	background-color: whitesmoke;
+	background-color: #f9f9f9;
   padding-bottom: 40px;
-      border-bottom: 2px solid #dad5d5;
+  border-bottom: 2px solid #dad5d5;
 }
 .page5 > h1{
 	text-align: center;
 	color:  rgb(237, 14, 69);
   padding-top: 100px;
+}
+.icon-text > img{
+  width: 40px;
 }
 .grid_cont3{
 	display: grid;
@@ -170,20 +196,31 @@ h1{
   margin: 100px;
   text-align: center;
   font-family: sans-serif;
+  margin-bottom: 130px;
+}
+.prev{
+  position: absolute;
+  top: 278px;
+  right: 175px;
+  background-color: rgb(237, 14, 69);
+  border: none;
+  height: 60px;
+  width: 135px;
+  border-radius: 10px;
+  color: white;
+  font-size: 15px;
 }
 .page6text{
-  padding: 100px 240px 100px 240px;
+  padding: 100px 240px 80px 240px;
   font-size: 20px;
+}
+.link1{
+  color: rgb(237, 14, 69);
 }
 .smallimg{
   border-radius: 100px;
   position: relative;
 }
-/*.salena{
-  position: absolute;
-  left: 710px;
-  bottom: 20px;
-}*/
 .testpage6{
   margin: 100px;
   position: relative;
@@ -192,10 +229,10 @@ h1{
 .page6-img{
   float: right;
   width: 480px;
-    height: 300px;
-    position: absolute;
-    top: 10px;
-    left: 600px;
+  height: 300px;
+  position: absolute;
+  top: 10px;
+  left: 600px;
 }
 .flex-container{
   display: flex;
@@ -203,6 +240,12 @@ h1{
 }
 .item{
   width: 250px;
+}
+.item > img {
+  width: 40px;
+}
+.items > h2,h5{
+  color:  rgb(237, 14, 69);
 }
 .flex-container2{
   display: flex;
@@ -213,12 +256,13 @@ h1{
 	margin: 100px;
 	margin-top: 230px;
 }
-.page7 > h1,h6{
+.page7 > h1,h5{
 	text-align: center;
+  line-height: 30px;
 }
 .items > img{
- width: 310px;
-    height: 260px;
+  width: 310px;
+  height: 260px;
 }
 .page8{
 	background-color: #f7f7f7;
@@ -227,9 +271,13 @@ h1{
 	margin: 100px;
 	padding: 25px;
 }
-.pag8serv > h1,h6{
+.number{
+  color: rgb(237, 14, 69);
+}
+.pag8serv > h1{
 	text-align: center;
-	margin-top: 50px;
+  margin-top: -15px;
+  margin-bottom: 60px;
 }
 .contact{
 	background-color: white;
@@ -242,9 +290,9 @@ h1{
 }
  input{
 	width: 220px;
-    height: 30px;
-    border-radius: 100px;
-    border: 1px solid;
+  height: 30px;
+  border-radius: 100px;
+  border: 1px solid;
 }
 .lname{
 	margin-left: 200px;
@@ -263,24 +311,24 @@ h1{
 	width: 495px;
 }
 .msg{
-   width: 495px;
-   height: 160px;
-    border: 1px solid;
-    border-radius: 30px;
+  width: 495px;
+  height: 160px;
+  border: 1px solid;
+  border-radius: 30px;
 }
 .sent{
 	background-color: rgb(237, 14, 69);
 	border: none;
-    height: 40px;
-    width: 130px;
-    border-radius: 100px;
-    color: white;
+  height: 40px;
+  width: 130px;
+  border-radius: 100px;
+  color: white;
 }
 .address{
 	background-color: white;
 	margin-left: 58px;
-    height: 265px;
-    padding: 25px;
+  height: 265px;
+  padding: 25px;
 }
 footer{
 	background-color: #585858;
@@ -297,27 +345,27 @@ footer{
 	margin: 100px;
 }
 #sendbox{
-	 float: left;
-	 border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
+	float: left;
+	border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 
 }
 .send{
-	 float: left;
-	 width: 49px;
-    border: none;
-    background-color: rgb(237, 14, 69);
-    height: 34px;
-    padding: 5px;
-     border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    border: none;
+	float: left;
+	width: 49px;
+  border: none;
+  background-color: rgb(237, 14, 69);
+  height: 34px;
+  padding: 5px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border: none;
 }
 .foot1{
 	width: 320px;
 }
 .foot2{
-	margin-left: 220px;
+	margin-left: 190px;
 }
 .foot2 > a{
 	text-decoration: none;
